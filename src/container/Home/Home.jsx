@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner"
 import Featured from "../featured/Featured"
 import Footer from '../Footer/Footer';
 import Info from "../Information/Info"
+import image from "../../images/img3.png"
 const Home = () => {
 
     return (
@@ -20,33 +21,27 @@ const Home = () => {
                     <div>
                         <div className="card max-w-lg bg-base-100 shadow-xl">
                             <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
+                                <i class="fa-solid fa-briefcase text-4xl text-center"></i>
+                                <h2 className="text-center text-3xl">Social Business</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div className="card max-w-lg bg-base-100 shadow-xl">
                             <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
+                                <i class="fa-solid fa-industry text-4xl text-center"></i>
+                                <h2 className="text-center text-3xl">Industries</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div className="card max-w-lg bg-base-100 shadow-xl">
                             <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
+                                <i class="fa-solid fa-ranking-star text-4xl text-center"></i>
+                                <h2 className="text-center text-3xl">StartUp</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -56,7 +51,7 @@ const Home = () => {
             <div>
                 <div className="hero min-h-screen bg-base-100">
                     <div className="hero-content flex-col lg:flex-row">
-                        <img alt='' src="https://api.lorem.space/image/movie?w=260&h=400" className="max-w-sm rounded-lg shadow-2xl" />
+                        <img alt='' src={image} className="max-w-lg h-96 rounded-lg " />
                         <div>
                             <h1 className="text-5xl font-bold">Box Office News!</h1>
                             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
