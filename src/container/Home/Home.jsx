@@ -4,6 +4,7 @@ import Featured from "../featured/Featured"
 import Footer from '../Footer/Footer';
 import Info from "../Information/Info"
 import image from "../../images/img3.webp"
+import PricingCard from '../../components/PricingCard/PricingCard';
 const Home = () => {
 
     return (
@@ -63,44 +64,14 @@ const Home = () => {
             </div>
             {/* /pricing */}
             <div>
-                <div className='text-center'>
-                    <h1 className='text-5xl'>Simple pricing</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, omnis?</p>
+                <div>
+                    <h1 className='text-center text-5xl'>Simple pricing</h1>
+                    <p className='text-center mt-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, fugiat?</p>
                 </div>
-                <div className='grid grid-cols-3 gap-4 mt-20'>
-                    <div>
-                        <div className="card max-w-lg bg-base-100 shadow-xl">
-                            <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="card max-w-lg bg-base-100 shadow-xl">
-                            <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="card max-w-lg bg-base-100 shadow-xl">
-                            <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className='grid grid-cols-3 gap-4 mt-10'>
+                    <PricingCard />
+                    <PricingCard />
+                    <PricingCard />
                 </div>
             </div>
             <Footer />
