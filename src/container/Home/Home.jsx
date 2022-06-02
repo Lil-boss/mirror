@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner"
 import Featured from "../featured/Featured"
 import Footer from '../Footer/Footer';
 import Info from "../Information/Info"
-import image from "../../images/img3.png"
+import image from "../../images/img3.webp"
 const Home = () => {
 
     return (
@@ -49,13 +49,14 @@ const Home = () => {
             </div>
             {/* easy to use mobile */}
             <div>
-                <div className="hero min-h-screen bg-base-100">
+                <div className="hero min-h-screen bg-base-100 mt-20">
                     <div className="hero-content flex-col lg:flex-row">
-                        <img alt='' src={image} className="max-w-lg h-96 rounded-lg " />
-                        <div>
-                            <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <img alt='' src={image} className="max-w-lg rounded-lg " />
+                        <div className='ml-10'>
+                            <h1 className="text-5xl font-bold">Easy to Use Mobile Application</h1>
                             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <button className="btn btn-primary text-white">Get Started</button>
+                            <button className="btn bg-white text-black mx-4 border-[1px] hover:bg-primary hover:text-white">Sign up free</button>
                         </div>
                     </div>
                 </div>
