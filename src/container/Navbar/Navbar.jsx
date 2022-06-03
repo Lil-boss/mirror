@@ -11,8 +11,8 @@ const Navbar = () => {
             <li className='hover:text-primary'><a href="/">Contact</a></li>
         </>
     return (
-        <div className='w-4/5 mx-auto sticky top-0 z-10'>
-            <div className="navbar bg-base-100">
+        <div className='sticky top-0 z-10 bg-white'>
+            <div className="navbar bg-base-100 w-4/5 mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabindex="0" className="btn btn-ghost lg:hidden">

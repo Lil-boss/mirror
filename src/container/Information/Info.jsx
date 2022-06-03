@@ -9,8 +9,8 @@ const Info = () => {
                     <div>
                         <h1 className="text-5xl font-bold">Right people at the <br /> Right time.</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary text-white">Get Started</button>
-                        <button className="btn bg-white text-black mx-4 border-[1px] hover:bg-primary hover:text-white">Sign up free</button>
+                        <button className="btn btn-ghost bg-gradient-to-r from-primary to-secondary text-white">Get Started</button>
+                        <button className="btn bg-white text-black mx-4 border-[1px] hover:bg-gradient-to-r from-primary to-secondary hover:text-white">Sign up free</button>
                     </div>
                 </div>
             </div>

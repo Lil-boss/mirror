@@ -43,11 +43,11 @@ const Featured = () => {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam consequatur fugit voluptatum nihil vitae. Accusantium eligendi nihil, deserunt repellendus nostrum esse deleniti similique unde, aspernatur expedita, voluptatibus magni eveniet.</p>
                     </div>
                     <div className='flex justify-center items-center mt-8'>
-                        <div className="p-4 border-2 mr-4 rounded-l-3xl rounded-b-3xl hover:border-primary">
+                        <div className="p-4 border-2 mr-4 rounded-l-3xl rounded-b-3xl hover:border-y-primary hover:border-x-secondary">
                             <div className="stat-title text-center text-4xl">50k</div>
                             <div className="stat-desc text-center text-3xl">Total Customer</div>
                         </div>
-                        <div className="p-4 border-2 mr-4 rounded-l-3xl rounded-b-3xl hover:border-primary">
+                        <div className="p-4 border-2 mr-4 rounded-l-3xl rounded-b-3xl hover:border-y-primary hover:border-x-secondary">
                             <div className="stat-title text-center text-4xl">50k</div>
                             <div className="stat-desc text-center text-3xl">Total Customer</div>
                         </div>

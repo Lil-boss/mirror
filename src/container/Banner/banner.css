@@ -1,0 +1,7 @@
+.app__banner {
+    background-image: url("../../images/wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
