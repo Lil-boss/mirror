@@ -2,7 +2,7 @@ import React from 'react';
 
 const Featured = () => {
     return (
-        <div >
+        <div className='mt-20'>
             <div className='grid grid-cols-2 gap-6'>
                 <div className='grid grid-cols-2 gap-6'>
                     <div className='flex justify-center items-center'>
